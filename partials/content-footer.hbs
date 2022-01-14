@@ -12,7 +12,7 @@
     <div class="single-footer-middle">
         {{#if @custom.show_author}}
             <div class="single-footer-top">
-                <h3 class="single-footer-title">Published by:</h3>
+                <h3 class="single-footer-title">Publié par :</h3>
                 <div class="author-list">
                     {{#foreach authors}}
                         <div class="author-image-placeholder u-placeholder square">
@@ -36,13 +36,13 @@
                         href="https://www.facebook.com/sharer.php?u={{url absolute="true"}}"
                         target="_blank" rel="noopener noreferrer">
                         {{> icons/facebook}}
-                        Share
+                        Partager
                     </a>
                     <a class="share-link share-link-twitter"
                         href="https://twitter.com/intent/tweet?url={{url absolute="true"}}&text={{encode title}}"
                         target="_blank" rel="noopener noreferrer">
                         {{> icons/twitter}}
-                        Tweet
+                        Tweeter
                     </a>
                 </div>
             </div>
@@ -52,7 +52,7 @@
     <div class="single-footer-right">
         {{#next_post}}
             <div class="navigation navigation-next">
-                <a class="navigation-link" href="{{url}}" aria-label="Next post">
+                <a class="navigation-link" href="{{url}}" aria-label="Article suivant">
                     <span class="navigation-icon">{{> icons/arrow-right}}</span>
                 </a>
             </div>

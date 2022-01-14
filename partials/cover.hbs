@@ -16,12 +16,12 @@
 
         {{#unless @member}}
             <form class="form-wrapper cover-form" data-members-form>
-                <input class="auth-email" type="email" data-members-email placeholder="Your email address" required="true" autocomplete="false">
+                <input class="auth-email" type="email" data-members-email placeholder="Votre email" required="true" autocomplete="false">
 
-                <button class="form-button" type="submit" aria-label="Submit">
-                    <span class="default">Subscribe</span>
+                <button class="form-button" type="submit" aria-label="Valider">
+                    <span class="default">Inscription newsletter</span>
                     <span class="loader">{{> icons/loader}}</span>
-                    <span class="success">Email sent</span>
+                    <span class="success">Email envoyé</span>
                 </button>
             </form>
         {{/unless}}
